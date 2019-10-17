@@ -24,6 +24,7 @@ namespace LambdaExpressionTree
             }
 
             return base.VisitBinary(b);
+            }
         }
     }
 }
