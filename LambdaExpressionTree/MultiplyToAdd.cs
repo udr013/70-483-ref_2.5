@@ -18,6 +18,12 @@ namespace LambdaExpressionTree
             {
                 Expression left = this.Visit(b.Left);
                 Expression right = this.Visit(b.Right);
+
+                //Make this binary expression an Add rather than a multiply operation.
+                return Expression.Add(left, right);
+            }
+
+            return base.VisitBinary(b);
             }
         }
     }
