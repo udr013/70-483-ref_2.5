@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Types", "Types\Types.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeDomObject", "CodeDomObject\CodeDomObject.csproj", "{DC1BA86E-2293-46E3-87F0-9DF96BCD6CF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressionTree", "LambdaExpressionTree\LambdaExpressionTree.csproj", "{6D5139E2-CDCE-4D1D-A798-1FC07DC63DC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaExpressionTree", "LambdaExpressionTree\LambdaExpressionTree.csproj", "{6D5139E2-CDCE-4D1D-A798-1FC07DC63DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyObject", "AssemblyObject\AssemblyObject.csproj", "{EA391567-6C17-4848-B1A5-1EDE58D9AC62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6D5139E2-CDCE-4D1D-A798-1FC07DC63DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D5139E2-CDCE-4D1D-A798-1FC07DC63DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D5139E2-CDCE-4D1D-A798-1FC07DC63DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA391567-6C17-4848-B1A5-1EDE58D9AC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA391567-6C17-4848-B1A5-1EDE58D9AC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA391567-6C17-4848-B1A5-1EDE58D9AC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA391567-6C17-4848-B1A5-1EDE58D9AC62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
